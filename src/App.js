@@ -2,12 +2,12 @@
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 
 // Internal Dependencies
-import BuiltInHome from './components/BuiltInHome';
+import Home from './components/Home';
 
 // Router Definition
 const AppNavigator = createStackNavigator({
   Home: {
-    screen: BuiltInHome,
+    screen: Home,
   },
   // Profile: { screen: ProfileScreen },
 });
