@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Home 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+      testID="home-wrapper"
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontFamily": "Changa-Regular",
+            "fontSize": 40,
+            "fontWeight": "500",
+            "textAlign": "center",
+          }
+        }
+      >
+        DrumFun
+      </Text>
+    </View>
+  </View>
+</View>
+`;
